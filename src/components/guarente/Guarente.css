@@ -1,0 +1,24 @@
+.guarentee{
+    width: 100%;
+    height: 670px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.g-main{
+    width: 540px;
+    height: 428px;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.g-main h1{
+    font-size: 40px;
+    color: #333461; 
+}
+.g-main p{
+    font-size: 20px;
+    color: #4A556CB2;
+    line-height: 30px;
+    margin-top: 20px;
+}

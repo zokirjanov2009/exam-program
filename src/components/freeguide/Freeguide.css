@@ -1,0 +1,44 @@
+.Free-guide{
+    width: 100%;
+    height: 878px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.free-text{
+    width: 550px;
+    height: 520px;
+    /* border: 2px solid black; */
+}
+.free-text h1{
+    font-size: 48px;
+    color: #333461;
+    line-height: 55px;
+}
+.free-text p{
+    color: #333461;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 25px;
+
+}
+.free-text button{
+    width: 250px;
+    height: 42px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: #20AD96;
+}
+.free-text button:hover{
+    background-color: #00d0ad;
+}
+.free-img{
+    width: 450px;
+    height: 580px;
+    /* border: 2px solid black; */
+}

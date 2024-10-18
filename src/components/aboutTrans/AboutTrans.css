@@ -1,0 +1,50 @@
+.trans-life{
+    width: 100%;
+    height: 820px;
+    /* border: 2px solid black;     */
+    padding: 100px 80px;
+    display: grid;
+    gap: 60px;
+}
+.life-text{
+    width: 100%;
+    height: 160px;
+    /* border: 2px solid black; */
+    text-align: center;
+    display: grid;
+}
+.life-text h1{
+    font-size: 36px;
+    color: #333461;
+}
+.life-text p{
+    font-size: 20px;
+    color: #4A556CB2;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.life-cards{
+    width: 100%;
+    height: 410px;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 20px;
+    align-items: center;
+    padding-left: 50px;
+}
+.life-card{
+    width: 390px;
+    height: 180px;
+    /* border: 2px solid black; */
+    text-align: center;
+    line-height: 25px;
+}
+.life-card h2{
+    color: #333461;
+}
+.life-card p{
+    color: #667085;
+    font-size: 17px;
+    margin-top: 10px;
+}

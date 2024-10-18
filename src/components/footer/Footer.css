@@ -1,0 +1,32 @@
+.Footer{
+    width: 100%;
+    height: 360px;
+    /* border: 2px solid black; */
+    padding: 70px;
+    padding-left: 150px;
+}
+.footer-main{
+    width: 100%;
+    height: 230px;
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 200px;
+}
+.footer-pages ul li{
+    list-style: none;
+}
+.footer-pages ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #4A556C80;
+}
+.footer-pages ul{
+    margin-top: 20px;
+    display: grid;
+    gap: 15px;
+}
+.logo p{
+    font-size: 20px;
+    color: #4A556C80;
+    margin-top: 30px;
+}

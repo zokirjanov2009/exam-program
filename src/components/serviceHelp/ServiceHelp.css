@@ -1,0 +1,45 @@
+.big-div{
+    padding: 100px 330px 40px;
+    display: grid;
+}
+.big-div .help-logo h1{
+    font-size: 48px;
+    color: #333461;
+    text-align: center;
+    font-weight: 800;
+}
+.service-help{
+    width: 920px;
+    height: 788px;
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 30px;
+}
+.help-boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+.help-box{
+    width: 450px;
+    height: 360px;
+    border: 2px solid #EDEFF5;
+    padding-left: 70px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+
+.help-box h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #20AD96;
+    letter-spacing: -1px;
+    line-height: 70px;
+}
+.help-box p{
+    font-size: 16px;
+    color: #4A556C;
+    line-height: 24px;
+}
